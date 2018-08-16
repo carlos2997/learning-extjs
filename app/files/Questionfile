@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "id": "c568e403-a17a-4221-8580-892e58f71d16",
+      "title": "JNDI JMS Resources with Openliberty",
+      "text": "I'm trying to configure JNDI resources for a simple Java EE 7 web application, on the OpenLiberty server. The simple app (using Oracle example) will post to a JMS Queue using the Artemis client when this REST endpoint is accessed.",
+      "contributorName": "German Santana",
+      "contributorId": 1,
+      "totalAnswers": 2,
+      "isAnswered": null,
+      "topics": [
+        {
+          "id": "c568e403-a17a-4221-8580-892e58f71d11",
+          "name": "java-ee"
+        },
+        {
+          "id": "c568e403-a17a-4221-8580-892e58f71d12",
+          "name": "hibernate"
+        }
+      ]
+    },
+    {
+      "id": "c568e403-a17a-4221-8580-892e58f71d21",
+      "title": "Multiple Datasources in Spring boot",
+      "text": "How I can configure two datasources in spring boot ?",
+      "contributorName": "German Santana",
+      "contributorId": 1,
+      "totalAnswers": 0,
+      "isAnswered": null,
+      "topics": [
+        {
+          "id": "c568e403-a17a-4221-8580-892e58f71d16",
+          "name": "spring"
+        }
+      ]
+    },
+    {
+      "id": "c568e403-a17a-4221-8580-892e58f71d20",
+      "title": "Spring Batch",
+      "text": "What is the spring framework that allows batch processing ?",
+      "contributorName": "German Santana",
+      "contributorId": 1,
+      "totalAnswers": 1,
+      "isAnswered": null,
+      "topics": [
+        {
+          "id": "c568e403-a17a-4221-8580-892e58f71d16",
+          "name": "spring"
+        }
+      ]
+    },
+    {
+      "id": "c568e403-a17a-4221-8580-892e58f71d18",
+      "title": "Spring advantages",
+      "text": "What are the spring boot advantages ?",
+      "contributorName": "German Santana",
+      "contributorId": 1,
+      "totalAnswers": 2,
+      "isAnswered": null,
+      "topics": [
+        {
+          "id": "c568e403-a17a-4221-8580-892e58f71d16",
+          "name": "spring"
+        }
+      ]
+    },
+    {
+      "id": "c568e403-a17a-4221-8580-892e58f71d15",
+      "title": "Spring bean scopes",
+      "text": "What are the spring bean scopes ?",
+      "contributorName": "German Santana",
+      "contributorId": 1,
+      "totalAnswers": 2,
+      "isAnswered": null,
+      "topics": [
+        {
+          "id": "c568e403-a17a-4221-8580-892e58f71d16",
+          "name": "spring"
+        }
+      ]
+    }
+  ]
+}

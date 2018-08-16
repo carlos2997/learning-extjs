@@ -7,6 +7,10 @@ Ext.define('QApp.view.main.MainController', {
 
     alias: 'controller.main',
 
+    requires:[
+
+    ],
+
     onItemSelected: function (sender, record) {
         Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
     },
@@ -15,5 +19,17 @@ Ext.define('QApp.view.main.MainController', {
         if (choice === 'yes') {
             //
         }
+    },
+
+    beforeRender: function(){
+        var restq = new RESTQuestion();
+        restq.getQuestions().then(function(result,request) {
+            console.log(result);
+            var object = Ext.decode(result.responseText);
+            console.log(object);
+        });
+
     }
+
+
 });

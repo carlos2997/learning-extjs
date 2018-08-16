@@ -17,7 +17,11 @@ Ext.define('QApp.view.main.Main', {
         'QApp.view.main.MainController',
         'QApp.view.main.MainModel',
         'QApp.view.main.List',
-        'QApp.view.main.AskPanel'
+        'QApp.view.main.AskPanel',
+
+        'QApp.view.question.QuestionPanel',
+        'QApp.view.question.QuestionController',
+        'QApp.view.question.QuestionModel'
 
     ],
 
@@ -30,14 +34,12 @@ Ext.define('QApp.view.main.Main', {
 
     items: [{
         id : 'ask',
+        itemId: 'AskingPanel',
         xtype: 'main-ask',
         anchor: '100% 10%'
     }, {
-        id: 'Users',
-        anchor: '100% 20%',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        xtype: 'questions',
+        itemId: 'contentPanel'
     }, {
         id: 'Home',
         xtype: 'mainlist',
